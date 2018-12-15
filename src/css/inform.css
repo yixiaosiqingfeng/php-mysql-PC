@@ -1,0 +1,472 @@
+#inform_main {
+  height: 500px;
+  background: #fff;
+  margin: 20px 0;
+}
+#inform_main .container {
+  position: relative;
+}
+#inform_main .container .main_left {
+  width: 34%;
+  border: 1px solid #ccc;
+  position: absolute;
+  left: 0;
+  top: 20px;
+}
+#inform_main .container .main_left #exzoom {
+  width: 100%;
+}
+#inform_main .container .main_left #exzoom .exzoom_img_box .exzoom_img_ul {
+  width: 435px;
+  height: 417px;
+}
+#inform_main .container .main_left #exzoom .exzoom_img_box img {
+  width: 417px;
+  height: 410px;
+  z-index: 1200;
+}
+#inform_main .container .main_right {
+  height: 500px;
+  width: 63%;
+  padding: 20px 40px;
+}
+#inform_main .container .main_right .main_right_1 {
+  height: 45px;
+  margin-bottom: 10px;
+}
+#inform_main .container .main_right .main_right_1 a {
+  font-size: 28px;
+  color: #464545;
+}
+#inform_main .container .main_right .main_right_2 {
+  height: 25px;
+  font-size: 17px;
+}
+#inform_main .container .main_right .main_right_3 {
+  height: 70px;
+  margin-top: 20px;
+}
+#inform_main .container .main_right .main_right_3 p:first-child {
+  height: 70px;
+  line-height: 70px;
+}
+#inform_main .container .main_right .main_right_3 p:first-child span:first-child {
+  position: relative;
+}
+#inform_main .container .main_right .main_right_3 p:first-child span:first-child a {
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  background: orange;
+  line-height: 20px;
+  font-size: 11px;
+  text-align: center;
+  border-radius: 5px;
+  color: #fff;
+  position: absolute;
+  right: -20px;
+  top: -20px;
+}
+#inform_main .container .main_right .main_right_3 p:first-child span:first-child i {
+  color: red;
+  font-size: 28px;
+}
+#inform_main .container .main_right .main_right_3 p:first-child span:nth-child(2) {
+  margin-left: 20px;
+  text-decoration: line-through;
+}
+#inform_main .container .main_right .main_right_3 p:first-child span:nth-child(2) a {
+  font-size: 11px;
+}
+#inform_main .container .main_right .main_right_3 p:first-child span:nth-child(3) {
+  font-size: 13px;
+}
+#inform_main .container .main_right .main_right_3 p:first-child span:nth-child(3) a {
+  padding: 0 10px;
+  font-size: 12px;
+  margin-left: 20px;
+}
+#inform_main .container .main_right .main_right_3 p:nth-child(2) {
+  width: 190px;
+  height: 70px;
+  padding-top: 10px;
+}
+#inform_main .container .main_right .main_right_3 p:nth-child(2) span:first-child {
+  font-size: 13px;
+  line-height: 25px;
+}
+#inform_main .container .main_right .main_right_3 p:nth-child(2) span:first-child a {
+  color: red;
+  font-size: 17px;
+}
+#inform_main .container .main_right .main_right_3 p:nth-child(2) span:nth-child(2) {
+  font-size: 13px;
+}
+#inform_main .container .main_right .main_right_4 {
+  height: 85px;
+  font-size: 14px;
+  background: ghostwhite;
+  padding: 5px 10px;
+}
+#inform_main .container .main_right .main_right_4 li {
+  height: 25px;
+  line-height: 25px;
+}
+#inform_main .container .main_right .main_right_4 li:nth-child(2) {
+  height: 25px;
+  line-height: 25px;
+}
+#inform_main .container .main_right .main_right_4 li:nth-child(2) .border {
+  display: inline-block;
+  width: 80px;
+  height: 8px;
+  border: 1px solid #ccc;
+  position: relative;
+}
+#inform_main .container .main_right .main_right_4 li:nth-child(2) .border a {
+  display: inline-block;
+  background: skyblue;
+  width: 65%;
+  height: 4px;
+  margin: 1px 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#inform_main .container .main_right .main_right_4 li:nth-child(3) select {
+  display: inline-block;
+  height: 15px;
+  width: 150px;
+}
+#inform_main .container .main_right .main_right_5 {
+  height: 35px;
+  padding-left: 10px;
+  line-height: 35px;
+  margin: 14px 0;
+}
+#inform_main .container .main_right .main_right_5 i {
+  font-size: 18px;
+  font-weight: bold;
+}
+#inform_main .container .main_right .main_right_5 a {
+  margin-right: 10px;
+  border-right: 1px dashed #ccc;
+  padding: 2px 10px;
+  font-size: 13px;
+}
+#inform_main .container .main_right .main_right_6 {
+  height: 35px;
+  padding-left: 10px;
+  line-height: 35px;
+  margin-bottom: 10px;
+}
+#inform_main .container .main_right .main_right_6 i {
+  font-size: 18px;
+}
+#inform_main .container .main_right .main_right_6 a {
+  font-size: 13px;
+}
+#inform_main .container .main_right .main_right_7 {
+  height: 100px;
+  position: relative;
+}
+#inform_main .container .main_right .main_right_7 p:nth-child(1) {
+  position: absolute;
+  right: 10px;
+  top: 4px;
+  border: 1px solid #ccc;
+  padding: 0 10px;
+  background: #f1efef;
+  cursor: pointer;
+}
+#inform_main .container .main_right .main_right_7 p:nth-child(1) i {
+  color: black;
+  font-size: 18px;
+}
+#inform_main .container .main_right .main_right_7 p:nth-child(2) {
+  width: 160px;
+  height: 45px;
+  background: #f18d2f;
+  line-height: 45px;
+  text-align: center;
+  color: #fff;
+  font-size: 21px;
+  font-weight: bold;
+  position: absolute;
+  right: 10px;
+  bottom: 15px;
+  cursor: pointer;
+}
+
+#discuss {
+  height: 1000px;
+  margin-top: 40px;
+  padding-top: 30px;
+}
+#discuss .container {
+  height: 100%;
+}
+#discuss .container .discuss_1 {
+  width: 68%;
+}
+#discuss .container .discuss_1 span {
+  display: inline-block;
+  height: 35px;
+  padding: 5px 35px;
+  line-height: 25px;
+  border: 1px solid #ccc;
+  background: ghostwhite;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 10px;
+}
+#discuss .container .discuss_1 .active {
+  margin-top: 0;
+  background: #fff;
+  border: 1px solid red;
+}
+#discuss .container .discuss_1 .con {
+  width: 100%;
+  margin-top: 15px;
+  display: none;
+}
+#discuss .container .discuss_1 .con img:nth-child(1) {
+  width: 100%;
+  height: 800px;
+}
+#discuss .container .discuss_1 .con img:nth-child(2) {
+  width: 100%;
+}
+#discuss .container .discuss_1 .pinglun .pinglun_1 {
+  height: 130px;
+  padding: 5px 20px;
+}
+#discuss .container .discuss_1 .pinglun .pinglun_1 .pinglun_1_1 {
+  width: 30%;
+  height: 100px;
+  border: 1px solid #ccc;
+  padding: 0 15px;
+}
+#discuss .container .discuss_1 .pinglun .pinglun_1 .pinglun_1_1 h3 {
+  height: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+#discuss .container .discuss_1 .pinglun .pinglun_1 .pinglun_1_1 h4 {
+  height: 70px;
+  padding: 10px 0;
+}
+#discuss .container .discuss_1 .pinglun .pinglun_1 .pinglun_1_1 h4 p {
+  float: left;
+  width: 50%;
+  height: 70px;
+}
+#discuss .container .discuss_1 .pinglun .pinglun_1 .pinglun_1_1 h4 p:nth-child(1) {
+  font-size: 40px;
+  line-height: 60px;
+  color: #4d4c4c;
+}
+#discuss .container .discuss_1 .pinglun .pinglun_1 .pinglun_1_1 h4 p:nth-child(2) {
+  height: 70px;
+  line-height: 60px;
+  font-size: 12px;
+  position: relative;
+  padding-left: 30px;
+  box-sizing: border-box;
+}
+#discuss .container .discuss_1 .pinglun .pinglun_1 .pinglun_1_1 h4 p:nth-child(2) a {
+  display: inline-block;
+  width: 15px;
+  height: 10px;
+  background: red;
+  position: absolute;
+  left: 5px;
+  top: 30px;
+}
+#discuss .container .discuss_1 .pinglun .pinglun_1 .pinglun_1_1 h4 p:nth-child(2) img {
+  height: 20px;
+  width: 80px;
+  position: absolute;
+  bottom: 5px;
+  right: 20px;
+}
+#discuss .container .discuss_1 .pinglun .pinglun_1 .pinglun_1_2 {
+  width: 65%;
+  height: 110px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+}
+#discuss .container .discuss_1 .pinglun .pinglun_1 .pinglun_1_2 p {
+  float: left;
+}
+#discuss .container .discuss_1 .pinglun .pinglun_1 .pinglun_1_2 p:nth-child(1) {
+  width: 160px;
+  height: 90px;
+  padding: 5px 20px;
+  border: 1px solid #ccc;
+}
+#discuss .container .discuss_1 .pinglun .pinglun_1 .pinglun_1_2 p:nth-child(1) img {
+  width: 120px;
+  height: 80px;
+}
+#discuss .container .discuss_1 .pinglun .pinglun_1 .pinglun_1_2 p:nth-child(2) {
+  width: 170px;
+  height: 90px;
+  line-height: 30px;
+}
+#discuss .container .discuss_1 .pinglun .pinglun_1 .pinglun_1_2 p:nth-child(2) i:nth-child(1) {
+  font-size: 13px;
+}
+#discuss .container .discuss_1 .pinglun .pinglun_1 .pinglun_1_2 p:nth-child(2) i:nth-child(2) {
+  font-size: 20px;
+  color: red;
+}
+#discuss .container .discuss_1 .pinglun .pinglun_2 {
+  height: 40px;
+  margin-top: 20px;
+  text-align: center;
+  background: #fff;
+  padding: 3px 10px;
+}
+#discuss .container .discuss_1 .pinglun .pinglun_2 h4 {
+  height: 37px;
+  margin-left: 20px;
+  font-size: 14px;
+  line-height: 34px;
+}
+#discuss .container .discuss_1 .pinglun .pinglun_2 li {
+  float: left;
+  height: 28px;
+  margin: 2px 6px;
+  padding: 0 20px;
+  font-size: 13px;
+  border: 1px solid #ccc;
+  line-height: 26px;
+}
+#discuss .container .discuss_1 .pinglun .pinglun_2 .select {
+  border: 1px solid red;
+  font-weight: bold;
+}
+#discuss .container .discuss_1 .pinglun .pinglun_2 li:hover {
+  border: 1px solid red;
+  cursor: pointer;
+}
+#discuss .container .discuss_1 .pinglun .pinglun_3 {
+  height: 600px;
+  border: 1px solid #ccc;
+}
+#discuss .container .discuss_1 .pinglun .pinglun_3 ul {
+  height: 500px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  overflow: auto;
+}
+#discuss .container .discuss_1 .pinglun .pinglun_3 ul li {
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px dashed #ccc;
+}
+#discuss .container .discuss_1 .pinglun .pinglun_3 #input1 {
+  display: inline-block;
+  width: 400px;
+  height: 40px;
+  border: 1px solid #ccc;
+  margin-left: 150px;
+}
+#discuss .container .discuss_1 .pinglun .pinglun_3 #btn {
+  width: 100px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+#discuss .container .discuss_2 {
+  width: 30%;
+  height: 600px;
+  border: 1px solid #ccc;
+  padding-top: 20px;
+  margin-top: 16px;
+}
+#discuss .container .discuss_2 h3 {
+  height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 30px;
+  margin-left: 15px;
+}
+#discuss .container .discuss_2 ul li {
+  float: left;
+  width: 95%;
+  height: 150px;
+  border-bottom: 1px dashed #ccc;
+}
+#discuss .container .discuss_2 ul li div {
+  width: 50%;
+  height: 150px;
+  float: left;
+}
+#discuss .container .discuss_2 ul li .left {
+  padding: 20px 20px;
+  position: relative;
+}
+#discuss .container .discuss_2 ul li .left img {
+  height: 94%;
+  width: 94%;
+  border: 1px solid #ccc;
+}
+#discuss .container .discuss_2 ul li .left span {
+  width: 30px;
+  height: 26px;
+  line-height: 30px;
+  text-align: center;
+  background: red;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+#discuss .container .discuss_2 ul li .right {
+  padding: 15px 10px;
+}
+#discuss .container .discuss_2 ul li .right p:nth-child(1) {
+  font-size: 15px;
+  height: 50px;
+}
+#discuss .container .discuss_2 ul li .right p:nth-child(1):hover {
+  color: darkcyan;
+  text-decoration: underline;
+  cursor: pointer;
+}
+#discuss .container .discuss_2 ul li .right p:nth-child(2) {
+  height: 40px;
+  color: red;
+  font-size: 22px;
+  margin-top: 20px;
+}
+#discuss .container .discuss_2 ul li:nth-child(2) .left,
+#discuss .container .discuss_2 ul li:nth-child(3) .left {
+  position: relative;
+}
+#discuss .container .discuss_2 ul li:nth-child(2) .left span,
+#discuss .container .discuss_2 ul li:nth-child(3) .left span {
+  width: 30px;
+  height: 26px;
+  line-height: 30px;
+  text-align: center;
+  background: orange;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+#discuss .container .discuss_2 ul li:nth-child(4) {
+  width: 120px;
+  height: 35px;
+  background: ghostwhite;
+  text-align: center;
+  line-height: 35px;
+  margin: 20px 130px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=inform.css.map */

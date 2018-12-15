@@ -1,0 +1,480 @@
+#inform_main {
+    height: 500px;
+    background: #fff;
+    margin: 20px 0;
+    .container {
+        position: relative;
+        .main_left {
+            width: 34%;
+            border: 1px solid #ccc;
+            position: absolute;
+            left: 0;
+            top: 20px;
+            #exzoom {
+                width: 100%;
+                .exzoom_img_box {
+                    .exzoom_img_ul{
+                        width: 435px;
+                        height: 417px;
+                    }
+                    img {
+                        width: 417px;
+                        height: 410px;
+                        z-index: 1200;
+                    }
+                }
+            }
+        }
+        .main_right {
+            height: 500px;
+            width: 63%;
+            padding: 20px 40px;
+            .main_right_1 {
+                height: 45px;
+                margin-bottom: 10px;
+                a {
+                    font-size: 28px;
+                    color: rgb(70, 69, 69);
+                }
+            }
+            .main_right_2 {
+                height: 25px;
+                font-size: 17px;
+            }
+            .main_right_3 {
+                height: 70px;
+                margin-top: 20px;
+                p:first-child {
+                    height: 70px;
+                    line-height: 70px;
+                    span:first-child {
+                        position: relative;
+                        a {
+                            display: inline-block;
+                            width: 40px;
+                            height: 20px;
+                            background: orange;
+                            line-height: 20px;
+                            font-size: 11px;
+                            text-align: center;
+                            border-radius: 5px;
+                            color: #fff;
+                            position: absolute;
+                            right: -20px;
+                            top: -20px;
+                        }
+                        i{
+                            color: red;
+                            font-size: 28px;
+                        }
+                    }
+                    span:nth-child(2) {
+                        margin-left: 20px;
+                        text-decoration: line-through;
+                        a {
+                            font-size: 11px;
+                            
+                        }
+                    }
+                    span:nth-child(3){
+                        font-size: 13px;
+                        a{
+                            padding: 0 10px;
+                            font-size: 12px;
+                            margin-left: 20px;
+                        }
+                    } 
+                }
+                p:nth-child(2) {
+                    width: 190px;
+                    height: 70px;
+                    padding-top: 10px;
+                    span:first-child {
+                        font-size: 13px;
+                        line-height: 25px;
+                        a {
+                            color: red;
+                            font-size: 17px;
+                        }
+                    }
+                    span:nth-child(2) {
+                        font-size: 13px;
+                    }
+                }
+            }
+            .main_right_4 {
+                height: 85px;
+                font-size: 14px;
+                background: ghostwhite;
+                padding: 5px 10px;
+                li {
+                    height: 25px;
+                    line-height: 25px;
+                }
+                li:nth-child(2) {
+                    height: 25px;
+                    line-height: 25px;
+                    .border {
+                        display: inline-block;
+                        width: 80px;
+                        height: 8px;
+                        border: 1px solid #ccc;
+                        position: relative;
+                        a {
+                            display: inline-block;
+                            background: skyblue;
+                            width: 65%;
+                            height: 4px;
+                            margin: 1px 0;
+                            position: absolute;
+                            left: 0;
+                            top: 0;
+                        }
+                    }
+                }
+                li:nth-child(3) {
+                    select {
+                        display: inline-block;
+                        height: 15px;
+                        width: 150px;
+                    }
+                }
+            }
+            .main_right_5 {
+                height: 35px;
+                padding-left: 10px;
+                line-height: 35px;
+                margin: 14px 0;
+                i {
+                    font-size: 18px;
+                    font-weight: bold;
+                }
+                a {
+                    margin-right: 10px;
+                    border-right: 1px dashed #ccc;
+                    padding: 2px 10px;
+                    font-size: 13px;
+                }
+            }
+            .main_right_6 {
+                height: 35px;
+                padding-left: 10px;
+                line-height: 35px;
+                margin-bottom: 10px;
+                i {
+                    font-size: 18px;
+                }
+                a {
+                    font-size: 13px;
+                }
+            }
+            .main_right_7 {
+                height: 100px;
+                position: relative;
+                p:nth-child(1) {
+                    position: absolute;
+                    right: 10px;
+                    top: 4px;
+                    border: 1px solid #ccc;
+                    padding: 0 10px;
+                    background: rgb(241, 239, 239);
+                    cursor: pointer;
+                    i {
+                        color: black;
+                        font-size: 18px;
+                    }
+                }
+                p:nth-child(2) {
+                    width: 160px;
+                    height: 45px;
+                    background: rgb(241, 141, 47);
+                    line-height: 45px;
+                    text-align: center;
+                    color: #fff;
+                    font-size: 21px;
+                    font-weight: bold;
+                    position: absolute;
+                    right: 10px;
+                    bottom: 15px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+#discuss {
+    height: 1000px;
+    margin-top: 40px;
+    padding-top: 30px;
+    .container {
+        height: 100%;
+        .discuss_1 {
+            width: 68%;
+            span {
+                display: inline-block;
+                height: 35px;
+                padding: 5px 35px;
+                line-height: 25px;
+                border: 1px solid #ccc;
+                background: ghostwhite;
+                text-align: center;
+                cursor: pointer;
+                margin-top: 10px;
+            }
+            .active {
+                margin-top: 0;
+                background: #fff;
+                border: 1px solid red;
+            }
+            .con {
+                width: 100%;
+                margin-top: 15px;
+                display: none;
+                img:nth-child(1) {
+                    width: 100%;
+                    height: 800px;
+                }
+                img:nth-child(2) {
+                    width: 100%;
+                }
+            }
+            .pinglun {
+                .pinglun_1 {
+                    height: 130px;
+                    padding: 5px 20px;
+                    .pinglun_1_1 {
+                        width: 30%;
+                        height: 100px;
+                        border: 1px solid #ccc;
+                        padding: 0 15px;
+                        h3 {
+                            height: 20px;
+                            font-size: 14px;
+                            font-weight: bold;
+                        }
+                        h4 {
+                            height: 70px;
+                            padding: 10px 0;
+                            p {
+                                float: left;
+                                width: 50%;
+                                height: 70px;
+                            }
+                            p:nth-child(1) {
+                                font-size: 40px;
+                                line-height: 60px;
+                                color: rgb(77, 76, 76);
+                            }
+                            p:nth-child(2) {
+                                height: 70px;
+                                line-height: 60px;
+                                font-size: 12px;
+                                position: relative;
+                                padding-left: 30px;
+                                box-sizing: border-box;
+                                a {
+                                    display: inline-block;
+                                    width: 15px;
+                                    height: 10px;
+                                    background: red;
+                                    position: absolute;
+                                    left: 5px;
+                                    top: 30px;
+                                }
+                                img {
+                                    height: 20px;
+                                    width: 80px;
+                                    position: absolute;
+                                    bottom: 5px;
+                                    right: 20px;
+                                }
+                            }
+                        }
+                    }
+                    .pinglun_1_2 {
+                        width: 65%;
+                        height: 110px;
+                        padding: 5px 10px;
+                        border: 1px solid #ccc;
+                        p {
+                            float: left;
+                        }
+                        p:nth-child(1) {
+                            width: 160px;
+                            height: 90px;
+                            padding: 5px 20px;
+                            border: 1px solid #ccc;
+                            img {
+                                width: 120px;
+                                height: 80px;
+                            }
+                        }
+                        p:nth-child(2) {
+                            width: 170px;
+                            height: 90px;
+                            line-height: 30px;
+                            i:nth-child(1) {
+                                font-size: 13px;
+                            }
+                            i:nth-child(2) {
+                                font-size: 20px;
+                                color: red;
+                            }
+                        }
+                    }
+                }
+                .pinglun_2 {
+                    height: 40px;
+                    margin-top: 20px;
+                    text-align: center;
+                    background: #fff;
+                    padding: 3px 10px;
+                    h4 {
+                        height: 37px;
+                        margin-left: 20px;
+                        font-size: 14px;
+                        line-height: 34px;
+                    }
+                    li {
+                        float: left;
+                        height: 28px;
+                        margin: 2px 6px;
+                        padding: 0 20px;
+                        font-size: 13px;
+                        border: 1px solid #ccc;
+                        line-height: 26px;
+                    }
+                    .select {
+                        border: 1px solid red;
+                        font-weight: bold;
+                    }
+                    li:hover {
+                        border: 1px solid red;
+                        cursor: pointer;
+                    }
+                }
+                .pinglun_3 {
+                    height: 600px;
+                    border: 1px solid #ccc;
+                    ul {
+                        height: 500px;
+                        border: 1px solid #ccc;
+                        margin-bottom: 10px;
+                        padding: 10px 20px;
+                        overflow: auto;
+                        li {
+                            height: 40px;
+                            line-height: 40px;
+                            border-bottom: 1px dashed #ccc;
+                        }
+                    }
+                    #input1 {
+                        display: inline-block;
+                        width: 400px;
+                        height: 40px;
+                        border: 1px solid #ccc;
+                        margin-left: 150px;
+                    }
+                    #btn {
+                        width: 100px;
+                        height: 35px;
+                        line-height: 35px;
+                        text-align: center;
+                        border: 1px solid black;
+                        border-radius: 5px;
+                    }
+                }
+            }
+        }
+        .discuss_2 {
+            width: 30%;
+            height: 600px;
+            border: 1px solid #ccc;
+            padding-top: 20px;
+            margin-top: 16px;
+            h3 {
+                height: 30px;
+                font-size: 18px;
+                font-weight: bold;
+                line-height: 30px;
+                margin-left: 15px;
+            }
+            ul {
+                li {
+                    float: left;
+                    width: 95%;
+                    height: 150px;
+                    border-bottom: 1px dashed #ccc;
+                    div {
+                        width: 50%;
+                        height: 150px;
+                        float: left;
+                    }
+                    .left {
+                        padding: 20px 20px;
+                        position: relative;
+                        img {
+                            height: 94%;
+                            width: 94%;
+                            border: 1px solid #ccc;
+                        }
+                        span {
+                            width: 30px;
+                            height: 26px;
+                            line-height: 30px;
+                            text-align: center;
+                            background: red;
+                            position: absolute;
+                            left: 10px;
+                            top: 10px;
+                        }
+                    }
+                    .right {
+                        padding: 15px 10px;
+                        p:nth-child(1) {
+                            font-size: 15px;
+                            height: 50px;
+                        }
+                        p:nth-child(1):hover {
+                            color: darkcyan;
+                            text-decoration: underline;
+                            cursor: pointer;
+                        }
+                        p:nth-child(2) {
+                            height: 40px;
+                            color: red;
+                            font-size: 22px;
+                            margin-top: 20px;
+                        }
+                    }
+                }
+                li:nth-child(2),
+                li:nth-child(3) {
+                    .left {
+                        position: relative;
+                        span {
+                            width: 30px;
+                            height: 26px;
+                            line-height: 30px;
+                            text-align: center;
+                            background: orange;
+                            position: absolute;
+                            left: 10px;
+                            top: 10px;
+                        }
+                    }
+                }
+                li:nth-child(4) {
+                    width: 120px;
+                    height: 35px;
+                    background: ghostwhite;
+                    text-align: center;
+                    line-height: 35px;
+                    margin: 20px 130px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="../css/normalize.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/htmleaf-demo.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/jquery.exzoom.css"/>
+	
+	<style>
+	    #exzoom {
+	        width: 450px;
+	        /*height: 400px;*/
+	        margin: 20px auto;
+	    }
+	    .exzoom_img_box{
+	    	border: 1px solid #ccc;
+	    }
+	</style>
+</head>
+<body>
+	<div class="exzoom" id="exzoom">
+	    <!--大图区域-->
+	    <div class="exzoom_img_box">
+	        <ul class='exzoom_img_ul'>
+	            <li><img src="../images/photos/img01.jpg"/></li>
+	            <li><img src="../images/photos/img02.jpg"/></li>
+	            <li><img src="../images/photos/img03.jpg"/></li>
+	            <li><img src="../images/photos/img04.jpg"/></li>
+	            <li><img src="../images/photos/img05.jpg"/></li>
+	            <li><img src="../images/photos/img06.jpg"/></li>
+	            <li><img src="../images/photos/img07.jpg"/></li>
+	            <li><img src="../images/photos/img08.jpg"/></li>
+	        </ul>
+	    </div>
+	    <!--缩略图导航-->
+	    <div class="exzoom_nav"></div>
+	    <!--控制按钮-->
+	    <p class="exzoom_btn">
+	        <a href="javascript:void(0);" class="exzoom_prev_btn"> &lt; </a>
+	        <a href="javascript:void(0);" class="exzoom_next_btn"> &gt; </a>
+	    </p>
+	</div>
+</body>
+</html>
+<script src="../js/jquery-1.11.0.min.js"></script>
+<script src="../js/jquery.exzoom.js"></script>
+<script type="text/javascript">
+    $("#exzoom").exzoom({
+        autoPlay: false,
+    });//方法调用，务必在加载完后执行
+</script>

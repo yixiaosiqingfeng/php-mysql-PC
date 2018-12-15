@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		<input type="button" name="btn" id="btn" value="读数据" />
+		<ul id="box">
+			<!--<li>
+				<img src=""/>
+			</li>-->
+		</ul>
+		<script src="../js/jquery-1.10.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			//需求：点击按钮的时候，读取数据库的内容，显示到这个页面
+
+			//前端发送请求，接口查询数据返回给前端
+
+			$('#btn').click(function() {
+				$.ajax({
+					type: "get",
+					url: "../api/select.php",
+					async: true,
+					success: function(str) {
+						console.log(str);
+						var data = JSON.parse(str);
+						var html = '';
+						for(var i = 0; i < data.length; i++) {
+							
+							html += `<li>
+				                     <img src="${data[i].url}"/>
+			                         </li>`
+						}
+
+						$('#box').html(html);
+					}
+				});
+			});
+		</script>
+	</body>
+
+</html>
